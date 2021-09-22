@@ -25,7 +25,7 @@ type slackResponse struct {
 }
 
 var (
-	fileName = flag.String("file", "", "file name") // id пользователя для диалога
+	fileName = flag.String("file", "", "file name")
 )
 
 func main() {
